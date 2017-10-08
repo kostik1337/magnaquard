@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<element type="Window">
+	<attribute name="Name" value="Start" />
+	<attribute name="Position" value="0 25" />
+	<attribute name="Size" value="800 198" />
+	<attribute name="Min Anchor" value="0.5 0.5" />
+	<attribute name="Max Anchor" value="0.5 0.5" />
+	<attribute name="Pivot" value="0.5 0.5" />
+	<attribute name="Opacity" value="0" />
+	<element type="Text">
+		<attribute name="Min Anchor" value="0.5 1" />
+		<attribute name="Max Anchor" value="0.5 1" />
+		<attribute name="Pivot" value="0.5 1" />
+		<attribute name="Color" value="0 0 0 1" />
+		<attribute name="Top Left Color" value="0 0 0 1" />
+		<attribute name="Top Right Color" value="0 0 0 1" />
+		<attribute name="Bottom Left Color" value="1 0.5 0 1" />
+		<attribute name="Bottom Right Color" value="0.5 0 1 1" />
+		<attribute name="Font" value="Font;Fonts/Audiowide-Regular.ttf" />
+		<attribute name="Font Size" value="28" />
+		<attribute name="Text" value="press space to begin" />
+		<attribute name="Text Effect" value="Stroke" />
+		<attribute name="Effect Color" value="0.9 0.6 0.4 1" />
+	</element>
+	<element type="Text">
+		<attribute name="Min Anchor" value="0.5 0" />
+		<attribute name="Max Anchor" value="0.5 0" />
+		<attribute name="Pivot" value="0.5 0" />
+		<attribute name="Color" value="0.5 0.5 1 1" />
+		<attribute name="Top Left Color" value="0.5 0.5 1 1" />
+		<attribute name="Top Right Color" value="0.5 0.5 1 1" />
+		<attribute name="Font" value="Font;Fonts/Audiowide-Regular.ttf" />
+		<attribute name="Font Size" value="70" />
+		<attribute name="Text" value="MAGNAQUARD" />
+		<attribute name="Text Effect" value="Shadow" />
+		<attribute name="Shadow Offset" value="0 5" />
+		<attribute name="Effect Color" value="0.5 0.5 1 1" />
+	</element>
+</element>

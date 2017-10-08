@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<particleeffect>
+	<material name="Material/Flash.xml" />
+	<numparticles value="128" />
+	<updateinvisible enable="true" />
+	<relative enable="true" />
+	<scaled enable="true" />
+	<sorted enable="true" />
+	<fixedscreensize enable="false" />
+	<animlodbias value="0" />
+	<emittertype value="Sphere" />
+	<emittersize value="0.1 0.1 0.1" />
+	<direction min="-0.1 -0.1 -0.1" max="0.1 0.1 0.1" />
+	<constantforce value="0 0 0" />
+	<dampingforce value="0" />
+	<activetime value="0" />
+	<inactivetime value="0" />
+	<emissionrate min="36" max="42" />
+	<particlesize min="0.21 0" max="1 1" />
+	<timetolive min="0.2" max="0.3" />
+	<velocity min="0" max="0.1" />
+	<rotation min="0" max="180" />
+	<rotationspeed min="0" max="360" />
+	<sizedelta add="-1.5" mul="1.58" />
+	<faceCameraMode value="Rotate XYZ" />
+	<color value="0.25 0.25 1 1" />
+</particleeffect>

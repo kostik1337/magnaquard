@@ -1,0 +1,3080 @@
+<?xml version="1.0"?>
+<scene id="1">
+	<attribute name="Name" value="" />
+	<attribute name="Time Scale" value="1" />
+	<attribute name="Smoothing Constant" value="50" />
+	<attribute name="Snap Threshold" value="5" />
+	<attribute name="Elapsed Time" value="0" />
+	<attribute name="Next Replicated Node ID" value="25" />
+	<attribute name="Next Replicated Component ID" value="41" />
+	<attribute name="Next Local Node ID" value="16777401" />
+	<attribute name="Next Local Component ID" value="16777354" />
+	<attribute name="Variables" />
+	<attribute name="Variable Names" value="" />
+	<component type="Octree" id="1" />
+	<component type="DebugRenderer" id="2" />
+	<component type="Zone" id="12">
+		<attribute name="Bounding Box Min" value="-1000 -1000 -1000" />
+		<attribute name="Bounding Box Max" value="1000 1000 1000" />
+		<attribute name="Ambient Color" value="0.2 0.2 0.2 1" />
+	</component>
+	<component type="PhysicsWorld" id="17">
+		<attribute name="Gravity" value="0 0 0" />
+	</component>
+	<node id="6">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="CameraNode" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 20.4531 -14.3937" />
+		<attribute name="Rotation" value="0.881501 0.472182 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="Camera" id="7">
+			<attribute name="FOV" value="38.9" />
+			<attribute name="Aspect Ratio" value="1.77778" />
+		</component>
+	</node>
+	<node id="7">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Hero" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-0.55 0 -8.3052" />
+		<attribute name="Rotation" value="-1.62921e-07 0 1 -0" />
+		<attribute name="Scale" value="0.5 0.5 0.51" />
+		<attribute name="Variables" />
+		<component type="AnimatedModel" id="8">
+			<attribute name="Model" value="Model;Model/Robot/Robot.mdl" />
+			<attribute name="Material" value="Material;Material/Robot.xml" />
+			<attribute name="Cast Shadows" value="true" />
+			<attribute name="Bone Animation Enabled">
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+			</attribute>
+			<attribute name="Animation States">
+				<variant type="Int" value="0" />
+			</attribute>
+		</component>
+		<component type="RigidBody" id="16">
+			<attribute name="Physics Rotation" value="-1.62921e-07 0 1 0" />
+			<attribute name="Physics Position" value="-0.55 0 -8.3052" />
+			<attribute name="Mass" value="1" />
+			<attribute name="Collision Mask" value="219" />
+			<attribute name="Use Gravity" value="false" />
+		</component>
+		<component type="CollisionShape" id="18">
+			<attribute name="Size" value="3 6 2" />
+			<attribute name="Offset Position" value="0 3 0" />
+		</component>
+		<node id="16777400">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Butt" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0.0121515 3.49468 -0.00298915" />
+			<attribute name="Rotation" value="-7.54979e-08 -1.65006e-15 -1 -2.18557e-08" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="16777393">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Torso" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-2.18616e-10 0.494839 1.03175e-10" />
+				<attribute name="Rotation" value="1 -0 1.19209e-07 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777392">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="Chest" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="0 1.22274 -0" />
+					<attribute name="Rotation" value="1 -0 -0 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<node id="16777386">
+						<attribute name="Is Enabled" value="true" />
+						<attribute name="Name" value="Head" />
+						<attribute name="Tags" />
+						<attribute name="Position" value="0 0.914714 -0" />
+						<attribute name="Rotation" value="1 -0 -0 0" />
+						<attribute name="Scale" value="1 1 1" />
+						<attribute name="Variables" />
+					</node>
+					<node id="16777388">
+						<attribute name="Is Enabled" value="true" />
+						<attribute name="Name" value="Shoulder.L" />
+						<attribute name="Tags" />
+						<attribute name="Position" value="-1.30191 0.135239 0.0179556" />
+						<attribute name="Rotation" value="0.0665509 -0.00256649 -0.0384708 0.997038" />
+						<attribute name="Scale" value="1 1 1" />
+						<attribute name="Variables" />
+						<node id="16777387">
+							<attribute name="Is Enabled" value="true" />
+							<attribute name="Name" value="Arm.L" />
+							<attribute name="Tags" />
+							<attribute name="Position" value="4.85162e-08 1.3514 5.96046e-08" />
+							<attribute name="Rotation" value="0.702083 0.12823 -0.700451 0.00219489" />
+							<attribute name="Scale" value="1 1 1" />
+							<attribute name="Variables" />
+						</node>
+					</node>
+					<node id="16777390">
+						<attribute name="Is Enabled" value="true" />
+						<attribute name="Name" value="Shoulder.R" />
+						<attribute name="Tags" />
+						<attribute name="Position" value="1.30191 0.135239 0.0179558" />
+						<attribute name="Rotation" value="0.0269829 0.0463317 -0.588737 -0.806545" />
+						<attribute name="Scale" value="1 1 1" />
+						<attribute name="Variables" />
+						<component type="IKSolver" id="16777352">
+							<attribute name="Convergence Tolerance" value="0.001" />
+						</component>
+						<node id="16777389">
+							<attribute name="Is Enabled" value="true" />
+							<attribute name="Name" value="Arm.R" />
+							<attribute name="Tags" />
+							<attribute name="Position" value="0.00111428 1.32722 -0.00971556" />
+							<attribute name="Rotation" value="0.696874 -0.000198536 -0.705633 -0.128252" />
+							<attribute name="Scale" value="1 1 1" />
+							<attribute name="Variables" />
+							<component type="IKEffector" id="16777353">
+								<attribute name="Weight" value="1" />
+								<attribute name="Rotation Weight" value="1" />
+								<attribute name="Rotation Decay" value="0.25" />
+							</component>
+						</node>
+					</node>
+					<node id="16777391">
+						<attribute name="Is Enabled" value="true" />
+						<attribute name="Name" value="Jetpack" />
+						<attribute name="Tags" />
+						<attribute name="Position" value="0.0836149 0.00918484 -0.261538" />
+						<attribute name="Rotation" value="0.5 -0.5 -0.5 0.5" />
+						<attribute name="Scale" value="1 1 1" />
+						<attribute name="Variables" />
+					</node>
+				</node>
+			</node>
+			<node id="16777396">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Thigh.R" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.886207 -0.0416274 -0.00919046" />
+				<attribute name="Rotation" value="0.000843433 0.00161435 0.0197605 0.999803" />
+				<attribute name="Scale" value="1 1 1.00001" />
+				<attribute name="Variables" />
+				<node id="16777395">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="Ankle.R" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-8.34407e-08 1.96689 -8.3819e-09" />
+					<attribute name="Rotation" value="0.00165659 0.00228983 -0.998553 0.0537023" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<node id="16777394">
+						<attribute name="Is Enabled" value="true" />
+						<attribute name="Name" value="Foot.R" />
+						<attribute name="Tags" />
+						<attribute name="Position" value="-1.63871e-07 1.14491 -9.99489e-09" />
+						<attribute name="Rotation" value="-0.000793824 0.00114494 -0.820423 0.571755" />
+						<attribute name="Scale" value="1 1 1" />
+						<attribute name="Variables" />
+					</node>
+				</node>
+			</node>
+			<node id="16777399">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Thigh.L" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.8837 -0.0416279 -0.00919019" />
+				<attribute name="Rotation" value="-0.000843488 0.00164605 0.0213946 0.999769" />
+				<attribute name="Scale" value="1 1 0.999859" />
+				<attribute name="Variables" />
+				<node id="16777398">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="Ankle.L" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-1.4111e-07 1.81683 -1.11759e-08" />
+					<attribute name="Rotation" value="0.00160763 -0.0020242 -0.998674 0.0514162" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<node id="16777397">
+						<attribute name="Is Enabled" value="true" />
+						<attribute name="Name" value="Foot.L" />
+						<attribute name="Tags" />
+						<attribute name="Position" value="1.05855e-08 1.2948 -3.37832e-09" />
+						<attribute name="Rotation" value="0.000703104 -0.00101307 -0.822645 0.568554" />
+						<attribute name="Scale" value="1 1 1" />
+						<attribute name="Variables" />
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+	<node id="11">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Backing" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -5.72413" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<node id="2">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="3">
+				<attribute name="Model" value="Model;Model/Floor.mdl" />
+				<attribute name="Material" value="Material;Material/Floor.xml" />
+			</component>
+		</node>
+		<node id="3">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-10 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="4">
+				<attribute name="Model" value="Model;Model/Wall.mdl" />
+				<attribute name="Material" value="Material;Material/Wall.xml" />
+			</component>
+		</node>
+		<node id="4">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="10 0 0" />
+			<attribute name="Rotation" value="-1.62921e-07 0 1 -0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="5">
+				<attribute name="Model" value="Model;Model/Wall.mdl" />
+				<attribute name="Material" value="Material;Material/Wall.xml" />
+			</component>
+		</node>
+	</node>
+	<node id="13">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="RaycastSolver" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 -0.05 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="50 1 50" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="20">
+			<attribute name="Model" value="Model;Model/Plane.mdl" />
+			<attribute name="Material" value="Material;Material/Black.xml" />
+		</component>
+	</node>
+	<node id="16">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="BulletPrefab" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-8.95431 1.06096 -11.8209" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.5 0.5 0.5" />
+		<attribute name="Variables" />
+		<component type="ParticleEmitter" id="22">
+			<attribute name="Effect" value="ParticleEffect;Bullet.xml" />
+			<attribute name="Animation LOD Bias" value="0" />
+			<attribute name="Particles">
+				<variant type="Int" value="128" />
+				<variant type="Vector3" value="-2.4378e-12 0 -2.4378e-12" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="1" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="-1.70146e+38 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="1" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="-1.71465e+38" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 1" />
+				<variant type="Vector2" value="nan -8" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="-10" />
+				<variant type="Float" value="8" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="-1054867456" />
+				<variant type="Int" value="-16711936" />
+				<variant type="Vector3" value="8 0 -10" />
+				<variant type="Vector2" value="8 0" />
+				<variant type="Float" value="-10" />
+				<variant type="Float" value="-1.71465e+38" />
+				<variant type="Float" value="8" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="-1054867456" />
+				<variant type="Int" value="-1056964608" />
+				<variant type="Vector3" value="0 -10 -1.71465e+38" />
+				<variant type="Vector2" value="-8 0" />
+				<variant type="Float" value="-10" />
+				<variant type="Float" value="-8" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="-10" />
+				<variant type="Int" value="-16711936" />
+				<variant type="Int" value="-1056964608" />
+				<variant type="Vector3" value="0 10 8" />
+				<variant type="Vector2" value="0 10" />
+				<variant type="Float" value="-1.71465e+38" />
+				<variant type="Float" value="8" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="10" />
+				<variant type="Int" value="1090519040" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="10 -1.71465e+38 8" />
+				<variant type="Vector2" value="0 10" />
+				<variant type="Float" value="-8" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="10" />
+				<variant type="Float" value="-1.71465e+38" />
+				<variant type="Int" value="-1056964608" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="10 -8 0" />
+				<variant type="Vector2" value="10 -1.71465e+38" />
+				<variant type="Float" value="-8" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="-10" />
+				<variant type="Float" value="-8" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="1092616192" />
+				<variant type="Vector3" value="-1.71465e+38 8 0" />
+				<variant type="Vector2" value="-10 8" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="10" />
+				<variant type="Float" value="-1.71465e+38" />
+				<variant type="Float" value="8" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="-1054867456" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 5.57674e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="82656064" />
+				<variant type="Vector3" value="0 5.70937e-36 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.57817e-36 0 -0.00143657" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="16" />
+				<variant type="Int" value="1" />
+				<variant type="Vector3" value="0 2.12517e-37 0" />
+				<variant type="Vector2" value="5.57814e-36 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="82658640" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="-1.17187e+16 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="43033008" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="5.70666e-36 0" />
+				<variant type="Float" value="-2.4378e-12" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57813e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="82658520" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 5.57824e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="-2.61496e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="64" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="2.12517e-37" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57821e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="82658528" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 5.57827e-36" />
+				<variant type="Vector2" value="0 -1.69536e-19" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="16" />
+				<variant type="Int" value="4" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="2.12517e-37 0" />
+				<variant type="Float" value="5.57823e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.57831e-36 0 0.00689972" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="nan" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="4" />
+				<variant type="Int" value="1" />
+				<variant type="Vector3" value="0 2.12517e-37 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="5.70666e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="-2.4378e-12" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="82658608" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.57826e-36 0 5.57814e-36" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57802e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="7.86858e-23" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="-0.00172608 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="2.12517e-37" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="82659064" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="5.57916e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57839e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.57854e-36 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57841e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="-6.43757" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 -6.43757 2.75165e+22" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="112" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.57831e-36 0 0" />
+				<variant type="Vector2" value="0 5.57836e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57837e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="5.57637e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.76378e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="848" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 5.71006e-36" />
+				<variant type="Vector2" value="0 4.53584e+30" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="83025056" />
+				<variant type="Vector3" value="0 4.57754e+24 1.78444e-10" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="7.139e+31" />
+				<variant type="Int" value="12129" />
+				<variant type="Int" value="49" />
+				<variant type="Vector3" value="0 5.57798e-36 0" />
+				<variant type="Vector2" value="5.57773e-36 0" />
+				<variant type="Float" value="5.57882e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57887e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="1024" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 5.5789e-36" />
+				<variant type="Vector2" value="0 5.5785e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57868e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57869e-36" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.57833e-36 0 -1.12361e-07" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.71006e-36" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="-1406432392" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="5.57872e-36 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="82659696" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="-5.76278e+29 0 0" />
+				<variant type="Vector2" value="0 2.06261e+21" />
+				<variant type="Float" value="2.75165e+22" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57676e-36" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="112" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="5.57849e-36 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57854e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="82659576" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 5.57863e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="2.21907e+36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="3" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="5.57792e-36 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="83609216" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.56885e-36 0 5.57858e-36" />
+				<variant type="Vector2" value="0 5.57858e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="82659888" />
+				<variant type="Vector3" value="0 7.86858e-23 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="-0.00172608" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="1" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="2.12517e-37 0 5.57862e-36" />
+				<variant type="Vector2" value="0 5.57863e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.5787e-36" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="-1162065079" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="43033008" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 5.70974e-36" />
+				<variant type="Vector2" value="0 -2.4378e-12" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57862e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57865e-36" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="5.57851e-36 0" />
+				<variant type="Float" value="-1.17187e+16" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="4" />
+				<variant type="Int" value="4" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 2.12517e-37" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57875e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="82660664" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="5.57877e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="-5.76278e+29" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="2.06261e+21 2.75165e+22 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="82659936" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="5.57872e-36 0" />
+				<variant type="Float" value="5.57873e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 4.18038e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57879e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="26582448" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.70937e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.70973e-36" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 7.139e+31" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57715e-36" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="82658016" />
+				<variant type="Vector3" value="0 5.57917e-36 0" />
+				<variant type="Vector2" value="5.57922e-36 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="83026064" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.57888e-36 0 5.57906e-36" />
+				<variant type="Vector2" value="0 5.57907e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.58301e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="78744784" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="2.12517e-37 0 0" />
+				<variant type="Vector2" value="0 5.71006e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="-2.4378e-12" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="5.57896e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="-5.76278e+29" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="2.06261e+21 2.75165e+22 0" />
+				<variant type="Vector2" value="0 5.57843e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="82660464" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="5.57891e-36 0" />
+				<variant type="Float" value="5.57892e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.579e-36 0 2.21907e+36" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="10" />
+				<variant type="Int" value="82652064" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="5.57728e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.71006e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57903e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="-0.00143657" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="2.12517e-37" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="82660840" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 5.57907e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="-1.17187e+16" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="4" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="2.12517e-37" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="83023344" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="-2.4378e-12 0 5.57899e-36" />
+				<variant type="Vector2" value="0 5.57903e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57903e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="82660512" />
+				<variant type="Vector3" value="0 -1.69536e-19 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="1" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="2.12517e-37 0 5.57912e-36" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.94384e-36" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="83677896" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="5.57914e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="-0.00143657" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="2.12517e-37" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57911e-36" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="4.2874e-36 0" />
+				<variant type="Float" value="-1.17187e+16" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="32" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.57503e-36 0 4.17157e-36" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.71034e-36" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="1752323375" />
+				<variant type="Vector3" value="1.78444e-10 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="7.139e+31" />
+				<variant type="Float" value="9.41755e-38" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="83033072" />
+				<variant type="Vector3" value="0 5.57715e-36 0" />
+				<variant type="Vector2" value="5.57963e-36 0" />
+				<variant type="Float" value="5.57968e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="112" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.71037e-36 0 5.57923e-36" />
+				<variant type="Vector2" value="0 5.57951e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57951e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57945e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.49602e-38 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57728e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="-2.4378e-12" />
+				<variant type="Int" value="32575" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57931e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="-253181509" />
+				<variant type="Int" value="1065353216" />
+				<variant type="Vector3" value="0 1 2.06261e+21" />
+				<variant type="Vector2" value="2.75165e+22 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57793e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="112" />
+				<variant type="Vector3" value="0 5.57921e-36 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="5.57926e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57927e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 5.57935e-36" />
+				<variant type="Vector2" value="0 2.21907e+36" />
+				<variant type="Float" value="1" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="9" />
+				<variant type="Vector3" value="0 5.57585e-36 0" />
+				<variant type="Vector2" value="6.50732e-38 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57393e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="82618208" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57938e-36" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="-1162065079" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="43033008" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.57935e-36 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57942e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="-1.17187e+16" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="2.12517e-37" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="625" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.7094e-36 0 -2.4378e-12" />
+				<variant type="Vector2" value="0 5.57934e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57938e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 5.57945e-36 0" />
+				<variant type="Vector2" value="-2.61496e-36 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="4" />
+				<variant type="Int" value="4" />
+				<variant type="Vector3" value="0 0 2.12517e-37" />
+				<variant type="Vector2" value="0 5.57942e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57938e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="82662176" />
+				<variant type="Vector3" value="0 -1.69536e-19 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="1" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="2.12517e-37 0 5.57945e-36" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57952e-36" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="1004672789" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="nan 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="43033008" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 5.7094e-36" />
+				<variant type="Vector2" value="0 -2.4378e-12" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57941e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57947e-36" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="82661824" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="5.57923e-36 0" />
+				<variant type="Float" value="7.86858e-23" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="16" />
+				<variant type="Int" value="16" />
+				<variant type="Vector3" value="-0.00172608 0 0" />
+				<variant type="Vector2" value="0 2.12517e-37" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57957e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="5.57948e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57957e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="82662736" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.57969e-36 0 0" />
+				<variant type="Vector2" value="0 5.5796e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="225" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.57723e-36 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57972e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 5.57965e-36 0" />
+				<variant type="Vector2" value="-5.76278e+29 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="2.06261e+21" />
+				<variant type="Float" value="2.75165e+22" />
+				<variant type="Int" value="816" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 5.71093e-36" />
+				<variant type="Vector2" value="0 4.57754e+24" />
+				<variant type="Float" value="1.78444e-10" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="7.139e+31 0 0" />
+				<variant type="Vector2" value="0 5.5792e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.71115e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57997e-36" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="82663696" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="5.58006e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57969e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="82663280" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.57994e-36 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="2.12517e-37 0" />
+				<variant type="Float" value="5.57969e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="833" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.5801e-36 0 -2.4378e-12" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 5.57978e-36 0" />
+				<variant type="Vector2" value="-5.76278e+29 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="2.06261e+21" />
+				<variant type="Float" value="2.75165e+22" />
+				<variant type="Int" value="9" />
+				<variant type="Int" value="10" />
+				<variant type="Vector3" value="5.5757e-36 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57968e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="82662864" />
+				<variant type="Vector3" value="0 5.57973e-36 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57982e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="2077601874" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57341e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="609" />
+				<variant type="Vector3" value="0 5.57933e-36 0" />
+				<variant type="Vector2" value="5.5637e-36 0" />
+				<variant type="Float" value="5.57976e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57977e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 5.57984e-36" />
+				<variant type="Vector2" value="0 -0.00143657" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="64" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="2.12517e-37 0" />
+				<variant type="Float" value="5.57981e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.57988e-36 0 -1.17187e+16" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="4" />
+				<variant type="Int" value="1" />
+				<variant type="Vector3" value="0 2.12517e-37 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="5.71123e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="-2.4378e-12" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="82663088" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.57984e-36 0 5.57984e-36" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57991e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="-1.69536e-19" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="2.12517e-37" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="82663304" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="5.57988e-36 0 0" />
+				<variant type="Vector2" value="0 5.57994e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="1.25629e-32" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="2" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="2.12517e-37" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.57991e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="82662896" />
+				<variant type="Int" value="0" />
+				<variant type="Vector3" value="0 0 5.5797e-36" />
+				<variant type="Vector2" value="0 1.5097e+38" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="0" />
+				<variant type="Int" value="-1159575760" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="0 0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="0" />
+				<variant type="Float" value="5.71145e-36" />
+				<variant type="Float" value="0" />
+				<variant type="Int" value="1752323375" />
+				<variant type="Int" value="792998767" />
+			</attribute>
+			<attribute name="Billboards">
+				<variant type="Int" value="128" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+				<variant type="Vector3" value="0 0 0" />
+				<variant type="Vector2" value="1 1" />
+				<variant type="Vector4" value="0 0 1 1" />
+				<variant type="Color" value="1 1 1 1" />
+				<variant type="Float" value="0" />
+				<variant type="Vector3" value="0 1 0" />
+				<variant type="Bool" value="false" />
+			</attribute>
+		</component>
+		<component type="CollisionShape" id="23">
+			<attribute name="Size" value="0.5 20 0.5" />
+		</component>
+		<component type="RigidBody" id="24">
+			<attribute name="Physics Rotation" value="1 0 0 0" />
+			<attribute name="Physics Position" value="-8.95431 1.06096 -11.8209" />
+			<attribute name="Mass" value="1" />
+			<attribute name="Is Trigger" value="true" />
+		</component>
+	</node>
+	<node id="17">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="EnemyPrefab" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-10.2149 0.920009 -13.8235" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.2 0.2 0.2" />
+		<attribute name="Variables" />
+		<component type="AnimatedModel" id="25">
+			<attribute name="Model" value="Model;Model/Ball/Ball.mdl" />
+			<attribute name="Material" value="Material;Material/Saucer.xml" />
+			<attribute name="Cast Shadows" value="true" />
+			<attribute name="Bone Animation Enabled">
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+			</attribute>
+			<attribute name="Animation States">
+				<variant type="Int" value="0" />
+			</attribute>
+		</component>
+		<component type="CollisionShape" id="26">
+			<attribute name="Size" value="3 3 3" />
+		</component>
+		<component type="RigidBody" id="27">
+			<attribute name="Physics Rotation" value="1 0 0 0" />
+			<attribute name="Physics Position" value="-10.2149 0.920009 -13.8235" />
+			<attribute name="Collision Layer" value="2" />
+			<attribute name="Is Trigger" value="true" />
+		</component>
+		<node id="16777323">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Head" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0 2.24932e-08 -0.514585" />
+			<attribute name="Rotation" value="0.707107 0.707107 -0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="16777303">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Ring" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0 1.20516 -0" />
+				<attribute name="Rotation" value="1 -0 -0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+			</node>
+			<node id="16777306">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Spr.1.1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-5.28553e-08 1.90737 0.76177" />
+				<attribute name="Rotation" value="0.894485 0.321781 -0.292085 -0.105074" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777305">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="Spr.1.2" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="2.03386e-09 1.54239 1.05698e-07" />
+					<attribute name="Rotation" value="0.931398 -0.190124 0.30413 0.0620848" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<node id="16777304">
+						<attribute name="Is Enabled" value="true" />
+						<attribute name="Name" value="Spr.1.3" />
+						<attribute name="Tags" />
+						<attribute name="Position" value="-2.10321e-12 1.84704 -1.19207e-07" />
+						<attribute name="Rotation" value="0.945656 -0.325012 0.0038711 0.00932604" />
+						<attribute name="Scale" value="1 1 1" />
+						<attribute name="Variables" />
+					</node>
+				</node>
+			</node>
+			<node id="16777309">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Spr.2.1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.717266 1.90737 0.256558" />
+				<attribute name="Rotation" value="0.922323 0.0486161 -0.186376 -0.334992" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777308">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="Spr.2.2" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="2.98023e-08 1.54239 3.72529e-08" />
+					<attribute name="Rotation" value="0.963845 -0.0287869 0.203579 0.169502" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<node id="16777307">
+						<attribute name="Is Enabled" value="true" />
+						<attribute name="Name" value="Spr.2.3" />
+						<attribute name="Tags" />
+						<attribute name="Position" value="-8.56817e-08 1.73841 -2.8871e-08" />
+						<attribute name="Rotation" value="0.932986 -0.129723 0.0154859 0.335366" />
+						<attribute name="Scale" value="1 1 1" />
+						<attribute name="Variables" />
+					</node>
+				</node>
+			</node>
+			<node id="16777312">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Spr.3.1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.521534 1.90737 -0.555244" />
+				<attribute name="Rotation" value="0.937404 -0.26594 -0.0817939 -0.209426" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777311">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="Spr.3.2" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="7.45058e-08 1.54239 8.9407e-08" />
+					<attribute name="Rotation" value="0.975025 0.151413 0.103065 0.125606" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<node id="16777310">
+						<attribute name="Is Enabled" value="true" />
+						<attribute name="Name" value="Spr.3.3" />
+						<attribute name="Tags" />
+						<attribute name="Position" value="8.19564e-08 1.85075 1.2666e-07" />
+						<attribute name="Rotation" value="0.943697 0.218324 0.0273663 0.247026" />
+						<attribute name="Scale" value="1 1 1" />
+						<attribute name="Variables" />
+					</node>
+				</node>
+			</node>
+			<node id="16777315">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Spr.5.1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.717266 1.90737 0.256558" />
+				<attribute name="Rotation" value="0.901584 0.200477 -0.269376 0.27275" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777314">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="Spr.5.2" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="1.04308e-07 1.54239 -5.96046e-08" />
+					<attribute name="Rotation" value="0.938051 -0.118717 0.283826 -0.159403" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<node id="16777313">
+						<attribute name="Is Enabled" value="true" />
+						<attribute name="Name" value="Spr.5.3" />
+						<attribute name="Tags" />
+						<attribute name="Position" value="-1.01048e-07 1.84846 3.72529e-08" />
+						<attribute name="Rotation" value="0.948719 -0.106917 0.00777158 -0.297389" />
+						<attribute name="Scale" value="1 1 1" />
+						<attribute name="Variables" />
+					</node>
+				</node>
+			</node>
+			<node id="16777318">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Spr.4.1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.521534 1.90737 -0.555244" />
+				<attribute name="Rotation" value="0.940198 -0.255886 0.037997 0.221598" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777317">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="Spr.4.2" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-5.96046e-08 1.54239 5.21541e-08" />
+					<attribute name="Rotation" value="0.980394 0.151493 -0.0111695 -0.12551" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<node id="16777316">
+						<attribute name="Is Enabled" value="true" />
+						<attribute name="Name" value="Spr.4.3" />
+						<attribute name="Tags" />
+						<attribute name="Position" value="-1.63913e-07 1.85075 -7.45058e-08" />
+						<attribute name="Rotation" value="0.94711 0.257303 0.0471479 -0.185892" />
+						<attribute name="Scale" value="1 1 1" />
+						<attribute name="Variables" />
+					</node>
+				</node>
+			</node>
+			<node id="16777319">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Leaf.4" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.21336 0.514585 0.229345" />
+				<attribute name="Rotation" value="0.270598 -0.270598 -0.653282 -0.653282" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+			</node>
+			<node id="16777320">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Leaf.3" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.21336 0.514585 0.229345" />
+				<attribute name="Rotation" value="0.270598 -0.270598 0.653282 0.653282" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+			</node>
+			<node id="16777321">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Leaf.1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.21336 0.514585 -0.229345" />
+				<attribute name="Rotation" value="0.653281 -0.653282 -0.270598 -0.270598" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+			</node>
+			<node id="16777322">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Leaf.2" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.21336 0.514585 -0.229345" />
+				<attribute name="Rotation" value="0.653281 -0.653282 0.270598 0.270598" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+			</node>
+		</node>
+		<node id="16777324">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.1.005" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.0223624 -1.8632 5.38576" />
+			<attribute name="Rotation" value="0.707107 0.707107 -0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777325">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.2.005" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.7454 -0.618065 5.38576" />
+			<attribute name="Rotation" value="0.707107 0.707107 -0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777326">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.3.005" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.263 1.38268 5.38576" />
+			<attribute name="Rotation" value="0.707107 0.707107 -0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777327">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.5.005" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.79012 -0.618065 5.38576" />
+			<attribute name="Rotation" value="0.707107 0.707107 -0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777328">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.4.005" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.30772 1.38268 5.38576" />
+			<attribute name="Rotation" value="0.707107 0.707107 -0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777329">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.1.003" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.54016e-07 -2.26882 4.35272" />
+			<attribute name="Rotation" value="0.00181796 0.707104 -0.00181795 0.707105" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777330">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.2.003" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.19921 -0.777038 4.2176" />
+			<attribute name="Rotation" value="0.418973 0.569616 0.418973 -0.569616" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777331">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.3.003" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.55842 1.66662 4.35272" />
+			<attribute name="Rotation" value="0.661669 0.249387 0.661669 -0.249387" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777332">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.5.003" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-2.1433 -0.759165 4.35272" />
+			<attribute name="Rotation" value="0.419865 0.568958 -0.419865 0.568958" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777333">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.4.003" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.55842 1.66662 4.35272" />
+			<attribute name="Rotation" value="0.660777 0.251741 -0.660777 0.251741" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777334">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.1.002" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.2103e-07 -1.74433 2.58171" />
+			<attribute name="Rotation" value="2.18557e-08 -1 2.19726e-08 -2.19726e-08" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777335">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.2.002" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.64242 -0.587476 2.58171" />
+			<attribute name="Rotation" value="0.419014 0.569585 0.419014 -0.569585" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777336">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.3.002" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.19423 1.27142 2.58171" />
+			<attribute name="Rotation" value="0.661096 0.250902 0.661096 -0.250902" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777337">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.5.002" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.64242 -0.587476 2.58171" />
+			<attribute name="Rotation" value="0.419014 0.569585 -0.419014 0.569585" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777338">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.4.002" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.19423 1.27142 2.58171" />
+			<attribute name="Rotation" value="0.661096 0.250902 -0.661096 0.250902" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+	</node>
+	<node id="19">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="SaucerPrefab" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-12.1674 1 -12.8148" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.2 0.2 0.2" />
+		<attribute name="Variables" />
+		<component type="AnimatedModel" id="28">
+			<attribute name="Model" value="Model;Model/Saucer/Saucer.mdl" />
+			<attribute name="Material" value="Material;Material/Ball.xml" />
+			<attribute name="Cast Shadows" value="true" />
+			<attribute name="Animation States">
+				<variant type="Int" value="0" />
+			</attribute>
+		</component>
+		<component type="CollisionShape" id="29">
+			<attribute name="Size" value="6 2 8" />
+		</component>
+		<component type="RigidBody" id="30">
+			<attribute name="Physics Rotation" value="1 0 0 0" />
+			<attribute name="Physics Position" value="-12.1674 1 -12.8148" />
+			<attribute name="Mass" value="1" />
+			<attribute name="Friction" value="1.5" />
+			<attribute name="Collision Layer" value="2" />
+			<attribute name="Is Trigger" value="true" />
+		</component>
+		<node id="16777339">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Head" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0 2.24932e-08 -0.514585" />
+			<attribute name="Rotation" value="0.707107 0.707107 -0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="16777340">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Ring" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0 1.20516 -0" />
+				<attribute name="Rotation" value="1 -0 -0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+			</node>
+			<node id="16777341">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Spr.1.1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-5.28553e-08 1.90737 0.76177" />
+				<attribute name="Rotation" value="0.894485 0.321781 -0.292085 -0.105074" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777342">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="Spr.1.2" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="2.03386e-09 1.54239 1.05698e-07" />
+					<attribute name="Rotation" value="0.931398 -0.190124 0.30413 0.0620848" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<node id="16777343">
+						<attribute name="Is Enabled" value="true" />
+						<attribute name="Name" value="Spr.1.3" />
+						<attribute name="Tags" />
+						<attribute name="Position" value="-2.10321e-12 1.84704 -1.19207e-07" />
+						<attribute name="Rotation" value="0.945656 -0.325012 0.0038711 0.00932604" />
+						<attribute name="Scale" value="1 1 1" />
+						<attribute name="Variables" />
+					</node>
+				</node>
+			</node>
+			<node id="16777344">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Spr.2.1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.717266 1.90737 0.256558" />
+				<attribute name="Rotation" value="0.922323 0.0486161 -0.186376 -0.334992" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777345">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="Spr.2.2" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="2.98023e-08 1.54239 3.72529e-08" />
+					<attribute name="Rotation" value="0.963845 -0.0287869 0.203579 0.169502" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<node id="16777346">
+						<attribute name="Is Enabled" value="true" />
+						<attribute name="Name" value="Spr.2.3" />
+						<attribute name="Tags" />
+						<attribute name="Position" value="-8.56817e-08 1.73841 -2.8871e-08" />
+						<attribute name="Rotation" value="0.932986 -0.129723 0.0154859 0.335366" />
+						<attribute name="Scale" value="1 1 1" />
+						<attribute name="Variables" />
+					</node>
+				</node>
+			</node>
+			<node id="16777347">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Spr.3.1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.521534 1.90737 -0.555244" />
+				<attribute name="Rotation" value="0.937404 -0.26594 -0.0817939 -0.209426" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777348">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="Spr.3.2" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="7.45058e-08 1.54239 8.9407e-08" />
+					<attribute name="Rotation" value="0.975025 0.151413 0.103065 0.125606" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<node id="16777349">
+						<attribute name="Is Enabled" value="true" />
+						<attribute name="Name" value="Spr.3.3" />
+						<attribute name="Tags" />
+						<attribute name="Position" value="8.19564e-08 1.85075 1.2666e-07" />
+						<attribute name="Rotation" value="0.943697 0.218324 0.0273663 0.247026" />
+						<attribute name="Scale" value="1 1 1" />
+						<attribute name="Variables" />
+					</node>
+				</node>
+			</node>
+			<node id="16777350">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Spr.5.1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.717266 1.90737 0.256558" />
+				<attribute name="Rotation" value="0.901584 0.200477 -0.269376 0.27275" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777351">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="Spr.5.2" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="1.04308e-07 1.54239 -5.96046e-08" />
+					<attribute name="Rotation" value="0.938051 -0.118717 0.283826 -0.159403" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<node id="16777352">
+						<attribute name="Is Enabled" value="true" />
+						<attribute name="Name" value="Spr.5.3" />
+						<attribute name="Tags" />
+						<attribute name="Position" value="-1.01048e-07 1.84846 3.72529e-08" />
+						<attribute name="Rotation" value="0.948719 -0.106917 0.00777158 -0.297389" />
+						<attribute name="Scale" value="1 1 1" />
+						<attribute name="Variables" />
+					</node>
+				</node>
+			</node>
+			<node id="16777353">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Spr.4.1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.521534 1.90737 -0.555244" />
+				<attribute name="Rotation" value="0.940198 -0.255886 0.037997 0.221598" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<node id="16777354">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="Spr.4.2" />
+					<attribute name="Tags" />
+					<attribute name="Position" value="-5.96046e-08 1.54239 5.21541e-08" />
+					<attribute name="Rotation" value="0.980394 0.151493 -0.0111695 -0.12551" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<node id="16777355">
+						<attribute name="Is Enabled" value="true" />
+						<attribute name="Name" value="Spr.4.3" />
+						<attribute name="Tags" />
+						<attribute name="Position" value="-1.63913e-07 1.85075 -7.45058e-08" />
+						<attribute name="Rotation" value="0.94711 0.257303 0.0471479 -0.185892" />
+						<attribute name="Scale" value="1 1 1" />
+						<attribute name="Variables" />
+					</node>
+				</node>
+			</node>
+			<node id="16777356">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Leaf.4" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.21336 0.514585 0.229345" />
+				<attribute name="Rotation" value="0.270598 -0.270598 -0.653282 -0.653282" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+			</node>
+			<node id="16777357">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Leaf.3" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.21336 0.514585 0.229345" />
+				<attribute name="Rotation" value="0.270598 -0.270598 0.653282 0.653282" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+			</node>
+			<node id="16777358">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Leaf.1" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="0.21336 0.514585 -0.229345" />
+				<attribute name="Rotation" value="0.653281 -0.653282 -0.270598 -0.270598" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+			</node>
+			<node id="16777359">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Leaf.2" />
+				<attribute name="Tags" />
+				<attribute name="Position" value="-0.21336 0.514585 -0.229345" />
+				<attribute name="Rotation" value="0.653281 -0.653282 0.270598 0.270598" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+			</node>
+		</node>
+		<node id="16777360">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.1.005" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.0223624 -1.8632 5.38576" />
+			<attribute name="Rotation" value="0.707107 0.707107 -0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777361">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.2.005" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.7454 -0.618065 5.38576" />
+			<attribute name="Rotation" value="0.707107 0.707107 -0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777362">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.3.005" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.263 1.38268 5.38576" />
+			<attribute name="Rotation" value="0.707107 0.707107 -0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777363">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.5.005" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.79012 -0.618065 5.38576" />
+			<attribute name="Rotation" value="0.707107 0.707107 -0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777364">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.4.005" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.30772 1.38268 5.38576" />
+			<attribute name="Rotation" value="0.707107 0.707107 -0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777365">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.1.003" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.54016e-07 -2.26882 4.35272" />
+			<attribute name="Rotation" value="0.00181796 0.707104 -0.00181795 0.707105" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777366">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.2.003" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="2.19921 -0.777038 4.2176" />
+			<attribute name="Rotation" value="0.418973 0.569616 0.418973 -0.569616" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777367">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.3.003" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.55842 1.66662 4.35272" />
+			<attribute name="Rotation" value="0.661669 0.249387 0.661669 -0.249387" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777368">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.5.003" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-2.1433 -0.759165 4.35272" />
+			<attribute name="Rotation" value="0.419865 0.568958 -0.419865 0.568958" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777369">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.4.003" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.55842 1.66662 4.35272" />
+			<attribute name="Rotation" value="0.660777 0.251741 -0.660777 0.251741" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777370">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.1.002" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.2103e-07 -1.74433 2.58171" />
+			<attribute name="Rotation" value="2.18557e-08 -1 2.19726e-08 -2.19726e-08" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777371">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.2.002" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.64242 -0.587476 2.58171" />
+			<attribute name="Rotation" value="0.419014 0.569585 0.419014 -0.569585" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777372">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.3.002" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="1.19423 1.27142 2.58171" />
+			<attribute name="Rotation" value="0.661096 0.250902 0.661096 -0.250902" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777373">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Spr.5.002" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.64242 -0.587476 2.58171" />
+			<attribute name="Rotation" value="0.419014 0.569585 -0.419014 0.569585" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+	</node>
+	<node id="21">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Lamp Warm" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-9.32699 5.83093 -6.54916" />
+		<attribute name="Rotation" value="0.141102 -0.55474 0.743556 -0.345662" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="Light" id="34">
+			<attribute name="Light Type" value="Directional" />
+			<attribute name="Color" value="0.7 0.5 0.35 1" />
+			<attribute name="Temperature" value="4500" />
+			<attribute name="Cast Shadows" value="true" />
+			<attribute name="Shadow Distance" value="10" />
+			<attribute name="Shadow Intensity" value="0.5" />
+			<attribute name="Shadow Resolution" value="0.5" />
+		</component>
+	</node>
+	<node id="22">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Lamp Harsh" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-0.281347 5.83093 -13.0212" />
+		<attribute name="Rotation" value="-0.255994 -0.00601377 -0.0417591 -0.96576" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="Light" id="35">
+			<attribute name="Light Type" value="Directional" />
+			<attribute name="Color" value="0.3 0.5 0.9 1" />
+			<attribute name="Brightness Multiplier" value="0.7" />
+			<attribute name="Temperature" value="2500" />
+			<attribute name="Cast Shadows" value="true" />
+			<attribute name="Shadow Distance" value="10" />
+			<attribute name="Shadow Intensity" value="0.5" />
+			<attribute name="Shadow Resolution" value="0.5" />
+		</component>
+	</node>
+	<node id="23">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Lamp extra" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="13.2671 5.83093 -6.54916" />
+		<attribute name="Rotation" value="0.0772327 0.877229 0.277134 -0.384323" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="Light" id="36">
+			<attribute name="Light Type" value="Directional" />
+			<attribute name="Color" value="0.3 0.5 0.9 1" />
+			<attribute name="Temperature" value="6500" />
+			<attribute name="Cast Shadows" value="true" />
+			<attribute name="Shadow Distance" value="10" />
+			<attribute name="Shadow Intensity" value="0.5" />
+			<attribute name="Shadow Resolution" value="0.5" />
+		</component>
+	</node>
+	<node id="24">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="MarkPrefab" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-13.3126 0 -15.0884" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.3 0.3 0.3" />
+		<attribute name="Variables" />
+		<component type="AnimatedModel" id="37">
+			<attribute name="Model" value="Model;Model/Mark/Sphere.mdl" />
+			<attribute name="Material" value="Material;Material/Hologram.xml" />
+			<attribute name="Bone Animation Enabled">
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+				<variant type="Bool" value="true" />
+			</attribute>
+			<attribute name="Animation States">
+				<variant type="Int" value="0" />
+			</attribute>
+		</component>
+		<component type="CollisionShape" id="39">
+			<attribute name="Size" value="5 5 5" />
+			<attribute name="Offset Position" value="0 4 0" />
+		</component>
+		<component type="RigidBody" id="40">
+			<attribute name="Physics Rotation" value="1 0 0 0" />
+			<attribute name="Physics Position" value="-13.3126 0 -15.0884" />
+			<attribute name="Mass" value="1" />
+			<attribute name="Friction" value="1.5" />
+			<attribute name="Collision Mask" value="1" />
+			<attribute name="Is Trigger" value="true" />
+		</component>
+		<node id="16777382">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Bone" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0 3.63007 1.58676e-07" />
+			<attribute name="Rotation" value="4.37114e-08 9.55343e-16 -1 -2.18557e-08" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777383">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Bone.001" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-1.73605 4.06765 -1.17697" />
+			<attribute name="Rotation" value="4.37114e-08 9.55343e-16 -1 -2.18557e-08" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+		<node id="16777384">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Bone.002" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-2.04519 4.10173 0.531776" />
+			<attribute name="Rotation" value="4.37114e-08 9.55343e-16 -1 -2.18557e-08" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
+	</node>
+</scene>
