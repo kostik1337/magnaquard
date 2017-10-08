@@ -7,8 +7,8 @@
 	<attribute name="Elapsed Time" value="0" />
 	<attribute name="Next Replicated Node ID" value="25" />
 	<attribute name="Next Replicated Component ID" value="41" />
-	<attribute name="Next Local Node ID" value="16777401" />
-	<attribute name="Next Local Component ID" value="16777354" />
+	<attribute name="Next Local Node ID" value="16777402" />
+	<attribute name="Next Local Component ID" value="16777366" />
 	<attribute name="Variables" />
 	<attribute name="Variable Names" value="" />
 	<component type="Octree" id="1" />
@@ -31,7 +31,7 @@
 		<attribute name="Variables" />
 		<component type="Camera" id="7">
 			<attribute name="FOV" value="38.9" />
-			<attribute name="Aspect Ratio" value="1.77778" />
+			<attribute name="Aspect Ratio" value="1.78534" />
 		</component>
 	</node>
 	<node id="7">
@@ -144,8 +144,8 @@
 							<attribute name="Is Enabled" value="true" />
 							<attribute name="Name" value="Arm.R" />
 							<attribute name="Tags" />
-							<attribute name="Position" value="0.00111428 1.32722 -0.00971556" />
-							<attribute name="Rotation" value="0.696874 -0.000198536 -0.705633 -0.128252" />
+							<attribute name="Position" value="0.00111455 1.32722 -0.0097146" />
+							<attribute name="Rotation" value="0.696874 -0.000198517 -0.705633 -0.128252" />
 							<attribute name="Scale" value="1 1 1" />
 							<attribute name="Variables" />
 							<component type="IKEffector" id="16777353">
@@ -2236,12 +2236,12 @@
 		<attribute name="Name" value="EnemyPrefab" />
 		<attribute name="Tags" />
 		<attribute name="Position" value="-10.2149 0.920009 -13.8235" />
-		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Rotation" value="-1.62921e-07 0 1 -0" />
 		<attribute name="Scale" value="0.2 0.2 0.2" />
 		<attribute name="Variables" />
 		<component type="AnimatedModel" id="25">
 			<attribute name="Model" value="Model;Model/Ball/Ball.mdl" />
-			<attribute name="Material" value="Material;Material/Saucer.xml" />
+			<attribute name="Material" value="Material;Material/Ball.xml" />
 			<attribute name="Cast Shadows" value="true" />
 			<attribute name="Bone Animation Enabled">
 				<variant type="Bool" value="true" />
@@ -2289,7 +2289,7 @@
 			<attribute name="Size" value="3 3 3" />
 		</component>
 		<component type="RigidBody" id="27">
-			<attribute name="Physics Rotation" value="1 0 0 0" />
+			<attribute name="Physics Rotation" value="-1.62921e-07 0 1 0" />
 			<attribute name="Physics Position" value="-10.2149 0.920009 -13.8235" />
 			<attribute name="Collision Layer" value="2" />
 			<attribute name="Is Trigger" value="true" />
@@ -2624,12 +2624,12 @@
 		<attribute name="Name" value="SaucerPrefab" />
 		<attribute name="Tags" />
 		<attribute name="Position" value="-12.1674 1 -12.8148" />
-		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Rotation" value="-1.62921e-07 0 1 -0" />
 		<attribute name="Scale" value="0.2 0.2 0.2" />
 		<attribute name="Variables" />
 		<component type="AnimatedModel" id="28">
 			<attribute name="Model" value="Model;Model/Saucer/Saucer.mdl" />
-			<attribute name="Material" value="Material;Material/Ball.xml" />
+			<attribute name="Material" value="Material;Material/Saucer.xml" />
 			<attribute name="Cast Shadows" value="true" />
 			<attribute name="Animation States">
 				<variant type="Int" value="0" />
@@ -2639,7 +2639,7 @@
 			<attribute name="Size" value="6 2 8" />
 		</component>
 		<component type="RigidBody" id="30">
-			<attribute name="Physics Rotation" value="1 0 0 0" />
+			<attribute name="Physics Rotation" value="-1.62921e-07 0 1 0" />
 			<attribute name="Physics Position" value="-12.1674 1 -12.8148" />
 			<attribute name="Mass" value="1" />
 			<attribute name="Friction" value="1.5" />
