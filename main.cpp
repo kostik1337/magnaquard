@@ -66,7 +66,7 @@ public:
     }
 
     void CreateCursor() {
-        ResourceCache* cache = GetSubsystem<ResourceCache>();
+        /*ResourceCache* cache = GetSubsystem<ResourceCache>();
 
         UI* ui = GetSubsystem<UI>();
 
@@ -76,7 +76,7 @@ public:
         ui->SetCursor(cursor);
         // Set starting position of the cursor at the rendering window center
         Graphics* graphics = GetSubsystem<Graphics>();
-        cursor->SetPosition(graphics->GetWidth() / 2, graphics->GetHeight() / 2);
+        cursor->SetPosition(graphics->GetWidth() / 2, graphics->GetHeight() / 2);*/
     }
 
     void LoadEverything() {
@@ -146,7 +146,7 @@ public:
     Vector3 Raycast() {
         UI* ui = GetSubsystem<UI>();
         IntVector2 pos = ui->GetCursorPosition();
-        if (!ui->GetCursor()->IsVisible() || ui->GetElementAt(pos, true))
+        if (ui->GetElementAt(pos, true))
             return Vector3();
 
         Graphics* graphics = GetSubsystem<Graphics>();
@@ -188,12 +188,10 @@ public:
     void HandleUpdate(StringHash eventType, VariantMap &eventData) {
         UI* ui = GetSubsystem<UI>();
         Input* input = GetSubsystem<Input>();
-        if (ui->GetCursor()->IsVisible()) {
-            Vector3 cast = Raycast();
+        Vector3 cast = Raycast();
 
-            if (SharedPtr<Hero> ptr = hero.Lock()) {
-                ptr->SetDirection(cast, false);
-            }
+        if (SharedPtr<Hero> ptr = hero.Lock()) {
+            ptr->SetDirection(cast, false);
         }
 
         if (SharedPtr<Hero> ptr = hero.Lock()) {
