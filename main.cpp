@@ -118,7 +118,7 @@ public:
         SoundSource *musicSource = musicNode->CreateComponent<SoundSource>();
         GetSubsystem<World>()->SetSoundSourceMusic(musicSource);
 
-        GetSubsystem<World>()->PlayMusic("Music/Pistol Jazz - God Speed.mp3");
+        GetSubsystem<World>()->PlayMusic("Music/Pistol Jazz - God Speed.ogg");
     }
 
     void OnGameStart() {
@@ -202,7 +202,7 @@ public:
                 isGameStarted = false;
                 scene->RemoveAllChildren();
                 LoadEverything();
-                GetSubsystem<World>()->PlayMusic("Music/Pistol Jazz - Spring Snow.mp3");
+                GetSubsystem<World>()->PlayMusic("Music/Pistol Jazz - Spring Snow.ogg");
             }
         }
     }
@@ -232,7 +232,7 @@ public:
         } else if(eventType == E_KEYUP && eventData[KeyUp::P_KEY].GetInt() == KEY_SPACE) {
             if (!isGameStarted)  {
                 if (isFuckUp)
-                    GetSubsystem<World>()->PlayMusic("Music/Pistol Jazz - God Speed.mp3");
+                    GetSubsystem<World>()->PlayMusic("Music/Pistol Jazz - God Speed.ogg");
                 OnGameStart();
             } else
                 hero->TryActivateBonus();
